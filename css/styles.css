@@ -5,9 +5,43 @@ body {
     background-color: #ffffff;
 }
 
-ul {
+p, h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
     list-style: none;
     /* Убираем маркеры у всех списков */
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
+address {
+    font-style: normal;
+}
+
+.container {
+    width: 1188px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid rgb(80, 163, 98);
 }
 
 .header {
@@ -86,6 +120,8 @@ ul {
 .hero {
     background-color: #2E2F42;
     text-align: center;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-title {
@@ -112,7 +148,7 @@ ul {
         line-height: 1.5;
         letter-spacing: 0.64px;
         cursor: pointer;
-    }
+}
 .hero-button:hover, 
 .hero-button:focus {
     background-color: #404bbf;
