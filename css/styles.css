@@ -54,8 +54,7 @@ address {
 .header {
     background-color: #ffffff;
     border-bottom: 1px solid #e7e9fc;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
 }
 
 .header-container {
@@ -158,37 +157,39 @@ address {
 
 .hero-title {
     color: #FFF;
-        text-align: center;
-        /* Header 1 */
-        font-family: 'Roboto', sans-serif;
-        font-size: 56px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 60px;
-        line-height: 1.07;
-        letter-spacing: 1.12px;
-        margin: 0 auto;
-        margin-bottom: 48px;
+    text-align: center;
+    /* Header 1 */
+    font-family: 'Roboto', sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    max-width: 496px;
 }
 
 .hero-button {
-        background-color: #4D5AE5;
-        color: #FFF;
-        /* Button Text */
-        font-family: "Roboto", sans-serif;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.64px;
-        cursor: pointer;
-        display: block;
-        min-width: 169px;
-        height: 56px;
-        border-radius: 4px;
-        padding: 16px 32px;
-        margin: 0 auto;
-        gap: 10px;
+    background-color: #4D5AE5;
+    color: #FFF;
+    /* Button Text */
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    margin: 0 auto;
+    gap: 10px;
+    border: none;
 }
 .hero-button:hover, 
 .hero-button:focus {
