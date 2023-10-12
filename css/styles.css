@@ -100,9 +100,7 @@ address {
     display: flex;
 }
 
-.header-menu-item {
-    padding: 24px 0;
-}
+.header-menu-item {}
 
 .header-menu-link {
     color: #2E2F42;
@@ -111,6 +109,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .header-menu-link:hover {
