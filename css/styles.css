@@ -40,11 +40,11 @@ address {
 }
 
 .container {
-    width: 1188px;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 2px solid rgb(80, 163, 98);
+    /* outline: 2px solid rgb(80, 163, 98); */
 }
 
 .section {
