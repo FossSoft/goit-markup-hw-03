@@ -276,7 +276,7 @@ address {
 }
 
 .ourteam-list {
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
     display: flex;
     gap: 24px;
 }
